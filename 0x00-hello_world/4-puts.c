@@ -1,9 +1,11 @@
 #include <stdio.h>
-int main(void)
-   /**hellow world
-  * 
- * printf() displays the string inside quotation
+/**
+ *main - entry point
+ *
+ *Return: 0 okay
  */
- puts("Programming is like building a multilingual puzzle");
-   return (0);
-}
+int main(void) 
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+
