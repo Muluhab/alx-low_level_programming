@@ -1,10 +1,10 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 /**
- *main - entry point
+ *main - prints a random number and states whether its postive, negative or zero
  *
- *Return: 0 okay
+ *Return: Always 0
  */
 int main(void)
 {
@@ -14,15 +14,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n==0)
 {
-print("%i is zero\n", n);
+prinf("%i is zero\n", n);
 }
-else if(n<0)
+else if (n<0)
 {
- print("%i is negative\n", n);
+ printf("%i is negative\n", n);
 }
 else
 {
-print("%i is positive\n", n);
+printf("%i is positive\n", n);
 }
 return (0);
 }
