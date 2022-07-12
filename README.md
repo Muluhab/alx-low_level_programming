@@ -1,2 +1,1 @@
-Tthis repository: alx-low_level_programming
-for the Directory of 0x00-hello_world
+0x18-dynamic_libraries readme
